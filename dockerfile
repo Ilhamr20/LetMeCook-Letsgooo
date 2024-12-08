@@ -15,10 +15,10 @@ RUN npm install
 # Salin semua file aplikasi ke dalam container
 COPY . /app/
 
-ENV PORT=8080
+ENV PORT=3000
 
 # Mengekspos port aplikasi (misalnya 8080 untuk Cloud Run)
-EXPOSE 8080
+EXPOSE 3000
 
 # Jalankan aplikasi Node.js
 CMD ["npm", "start"]
