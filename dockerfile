@@ -14,7 +14,7 @@ RUN npm install
 COPY . /app/
 
 # Mengekspos port aplikasi (misalnya 8080 untuk Cloud Run)
-EXPOSE 8080
+EXPOSE 8000
 
 # Jalankan aplikasi Node.js
 CMD ["npm", "start"]
