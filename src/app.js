@@ -45,5 +45,5 @@ sequelize
 // Menjalankan server
 const PORT = process.env.APP_PORT || 8080;
 app.listen(PORT, () => {
-  console.log(`Server running on port http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
