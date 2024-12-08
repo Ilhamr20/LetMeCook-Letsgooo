@@ -1,5 +1,5 @@
 # Gunakan Node.js sebagai base image
-FROM node:16
+FROM node:18-alpine as build
 
 # Set working directory di dalam container
 WORKDIR /app
